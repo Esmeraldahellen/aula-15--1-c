@@ -8,7 +8,7 @@ function draw() {
   fill("red");//alterar a cor de preenchimento do desenho
 
 
-  if(moueIsPressed){
+  if(mouseIsPressed){
     rect(mouseX, mouseY, 80, 40);
      }
    }
