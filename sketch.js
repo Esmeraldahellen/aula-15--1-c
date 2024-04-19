@@ -4,13 +4,11 @@
 }
 
 function draw() {
-  stroke ("green");//alterando a cor da borda do desenho
+  stroke("green");//alterando a cor da borda do desenho
   fill("red");//alterar a cor de preenchimento do desenho
-}
+
 
   if(mouelsPressed){
-  
-    
-      rect(mouseX,mouseY,80,40)
+    rect(mouseX,mouseY,80, 40);
      }
    }
